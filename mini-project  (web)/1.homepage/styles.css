@@ -1,0 +1,200 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+header {
+    color: white;
+    height: 600px; /* Change this value to adjust the height */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    /* padding: 20px; */
+    position: relative;
+}
+
+.hero {
+    position: relative;
+    width: 100%;
+    height: 600px; /* Change this value to adjust the height */
+}
+
+
+.hero-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+.hero h1 {
+    font-size: 100px;
+    margin-bottom: 20px;
+    padding-top: 80px;
+    z-index: 1;
+    position: relative;
+    text-shadow: 3px 3px 5px rgba(242, 46, 177, 0.362); 
+}
+
+.hero p {
+    font-size: 40px;
+    margin-bottom: 20px;
+    z-index: 1;
+    position: relative;
+    text-shadow: 3px 3px 5px rgba(252, 98, 200, 0.5);
+}
+
+.hero button {
+    padding: 19px 29px;
+    font-size: 22px;
+    background: #ff408038;
+    color: rgb(0, 0, 0);
+    border: none;
+    cursor: pointer;
+    z-index: 1;
+    position: relative;
+}
+
+nav {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background: #ff408038;
+    position: relative;
+    z-index: 1;
+}
+
+nav .logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+.profile-suggestions {
+    padding: 50px 20px;
+    background: #f4f4f4;
+}
+
+.profile-suggestions h2 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.profile-slider {
+    position: relative;
+    width: 80%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.profile img {
+    border-radius: 50%;
+    width: 150px; /* Set the width to a fixed size */
+    height: 150px; /* Set the height to match the width */
+    object-fit: cover; /* Ensures the image covers the entire circular area */
+    margin-bottom: 10px;
+}
+
+
+.profiles {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+.profile {
+    min-width: 200px;
+    margin-right: 10px;
+    text-align: center;
+    background-color: white;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.prev, .next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.prev {
+    left: 0;
+}
+
+.next {
+    right: 0;
+}
+
+
+.profile img {
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.profile h3 {
+    margin-bottom: 10px;
+}
+
+.profile button {
+    padding: 5px 15px;
+    background: #ff4081;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.reviews {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.reviews h2 {
+    margin-bottom: 30px;
+}
+
+.review {
+    background: #ff408020; /* Change the background to pink */
+    color: rgb(0, 0, 0); /* Change text color to white for better contrast */
+    padding: 20px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+footer {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}

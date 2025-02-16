@@ -1,0 +1,397 @@
+body{
+  background-color: black;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px;
+  margin-bottom: 80px;
+  background: #ff408038;
+  position: relative;
+  z-index: 1;
+}
+
+nav .logo {
+  font-size: 28px;
+  font-weight: bold;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: white;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+}
+
+nav ul li {
+  margin-left: 20px;
+  margin-right: 15px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 17px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight: bold;
+}
+
+
+.heading-1{
+  color: aliceblue;
+  font-size: 50px;
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+
+.heading-2{
+  color: aliceblue;
+  text-align:center;
+  font-size: 18px;
+  word-spacing: 3px;
+}
+
+.section-heading{
+  color: aliceblue;
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 40px;
+}
+
+.numbering{
+  width: 60px;
+  height: 60px;
+  border: 2px solid #aa1c4c;
+  border-radius: 50px;
+  display: flex; 
+  align-items: center;
+  justify-content: center;
+  margin-right: 16px;
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.section-topic{
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 0px;
+  width: 100%;
+  margin-top: 0px;
+  flex: 1;
+  padding-top: 20px;
+}
+
+
+.all-packages{
+  display: flex;
+}
+
+.package{
+  background-color: rgb(17, 19, 23);
+  border: 1px solid rgb(49 55 65);
+  border-radius: 10px;
+  width: 400px;
+  height: 450px;
+  margin-right: 40px;
+  text-align: center;
+  padding-top: 20px;
+}
+
+.package-type{
+  color: aliceblue;
+  font-size: 25px;
+  letter-spacing: 4px;
+}
+
+.package-price{
+  color: aliceblue;
+  font-size: 45px;
+  font-weight: bolder;
+  margin-bottom: 55px;
+}
+.per-month{
+  color: aliceblue;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.package-terms1{
+  color: rgb(50, 61, 70);
+  margin-bottom: 0;
+}
+
+.package-terms2{
+  color: white;
+  margin-top: 0;
+  margin-bottom: 30px;
+}
+
+.package-button{
+  color: red;
+  font-size: 17px;
+  background-color: transparent;
+  border: 0;
+  cursor: pointer;
+}
+
+.package2-type{
+  color: aliceblue;
+  font-size: 25px;
+  flex: 1;
+  padding-left: 60px;
+  letter-spacing: 4px;
+}
+
+.discount-heading1{
+  display:flex;
+  flex-direction: row;
+  padding-right: 60px;  
+  margin-top: 20px;
+}
+
+.discount{
+  color: aliceblue;
+  background-color: red;
+  border-radius: 40px;
+  padding-top: 5px;
+  width: 100px;
+}
+
+.discount-heading2{
+  display:flex;
+  flex-direction: row;
+  padding-right: 70px;  
+  margin-top: 20px;
+}
+
+.discount2{
+  color: aliceblue;
+  background-color: red;
+  border-radius: 40px;
+  padding-top: 5px;
+  width: 100px;
+}
+
+.package3-type{
+  color: aliceblue;
+  font-size: 25px;
+  flex: 1;
+  padding-left: 100px;
+  letter-spacing: 4px;
+}
+
+.span-green{
+  color: rgb(25, 214, 25);
+}
+
+.offer1{
+  font-size: 20px;
+  background-color: #7a1738;
+  position:absolute;
+  margin-top:-35px;
+  margin-left:80px;
+  color: aliceblue;
+  border-radius: 50px;
+  padding: 8px 20px 8px 20px;
+}
+
+.offer2{
+  font-size: 20px;
+  background-color: #7a1738;
+  position:absolute;
+  margin-top:-35px;
+  margin-left:100px;
+  color: aliceblue;
+  border-radius: 50px;
+  padding: 8px 20px 8px 20px;
+}
+
+/* .horizontal-ruler{
+  margin-top: 65px;
+  margin-bottom: 65px;
+  opacity: 0.1;
+  border-color: rgb(255, 255, 255);
+  width: 1250px;
+} */
+
+.email-para{
+  color: aliceblue;
+}
+
+.user-inputs{
+  padding: 0px 15px;
+  background-color: rgb(15, 15, 15);
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  border-radius: 8px;
+  display: block;
+  width: 100%;
+  height: 48px;
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 26px;
+  color: rgb(255, 255, 255);
+}
+
+.email{
+  width: 520px;
+  display: inline-block;
+  margin-right: 60px;
+}
+
+.section2-sub{
+  display: flex;
+}
+
+.login-button{
+  color: aliceblue;
+  background-color: red;
+  border: transparent;
+  border-radius: 10px;
+  font-size: 20px;
+  font-weight: bold;
+  width: 150px;
+  height: 48px;
+  cursor: pointer;
+}
+
+.button{
+  flex: 1;
+  padding-top: 50px;
+}
+
+.account-register{
+  color: red;
+  margin-top: 40px;
+  margin-left: 100px;
+  font-size: 18px;
+}
+
+a{
+  color: red;
+  cursor: pointer;
+}
+
+.section3-para{
+  margin-bottom: 100px;
+}
+
+.payment-button{
+    color: aliceblue;
+    font-size: small;
+    background-color: rgba(255, 0, 0, 0.856);
+    border: transparent;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+.section3-sub{
+  display: flex;
+
+}
+
+.section3-sub2{
+  display: inline-block;
+  width: 500px;
+  vertical-align: top;
+}
+
+.section3-para{
+  margin-right: 60px;
+}
+
+.section3-para2{
+  color: aliceblue;
+  font-size: 25px;
+  margin-top: 0;
+  margin-bottom: 15px;
+  font-weight: 500;
+}
+
+/* .package-section3{
+  border: 3px solid rgb(239, 161, 0);
+  background-color: rgb(0, 0, 0);
+  border-radius: 10px;
+  display: inline-block;
+  width: 350px;
+  height: 280px;
+  margin-right: 40px;
+  text-align: center;
+  padding-top: 20px;
+  vertical-align: top;
+} */
+
+.selected-package{
+  border: 3px solid #aa1c4c;
+  box-shadow: rgba(255, 0, 0, 0.801) 1px 1px 20px 1px;
+  background-color: rgb(0, 0, 0);
+  border-radius: 10px;
+  display: inline-block;
+  text-align: center;
+  padding-top: 20px;
+  vertical-align: top;
+}
+
+.section3-para-div{
+  color: aliceblue;
+  font-size: 18px;
+}
+
+.selected-package-section3{
+  border: 3px solid #aa1c4c;
+  /* box-shadow: rgb(239, 161, 0) 1px 1px 20px 1px; */
+  background-color: rgb(0, 0, 0);
+  border-radius: 10px;
+  display: inline-block;
+  width: 350px;
+  height: 380px;
+  margin-right: 40px;
+  text-align: center;
+  padding-top: 20px;
+  vertical-align: top;
+}
+
+.change-button{
+  color: grey;
+  font-size: 17px;
+  background-color: transparent;
+  border: 0;
+  cursor: pointer; 
+}
+
+.div{
+  margin-top: 150px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.login-link{
+  text-decoration: none;
+}
+
+.section-1{
+  margin-bottom: 90px;
+  width: 1300px;
+}
+
+.section3{
+  width: 1300px;
+  margin-bottom: 120px;
+}
+
+footer {
+  background: #333;
+  font-size: 18px;
+  color: white;
+  text-align: center;
+  padding: 5px;
+}
